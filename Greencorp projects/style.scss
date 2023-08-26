@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+  $green-color:#80b421;
+  $white-color: white;
+  $color-gray: #6D6D6D;
+  $font-roboto:'Roboto',sans-serif;
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+h1{
+    font-family: 'Helvetica Neue', sans-serif;
+                                                
+}
+.navbar-brand{
+    color: $green-color;
+    font-family: $font-roboto;
+    font-weight: bold;
+    font-size: 31px;
+    
+    span{
+        color: $color-gray;
+    }
+}
+.nav-link{
+    font-size: 17px;
+    font-family: $font-roboto;
+    margin-right: 5px;
+}
+ .nav-link:hover{
+    color: white;
+    border-radius: 3px;
+    background-color: $green-color;
+
+}
+
+.carousel-indicators{
+    .circle{
+        
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $white-color;
+
+}
+
+
+}
+.carousel-caption{
+    left: 21%;
+    bottom: 30%;
+
+    h5{
+        // background-color: $green-color;
+
+        width: fit-content;
+        margin-left: 26%;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-transform: capitalize;
+        background: $green-color;
+        background-blend-mode: multiply;
+
+    }
+    p{
+        font-size: 30px;
+        font-family: 'Helvetica Neue', sans-serif;
+        color: black;
+        text-transform: capitalize;
+        text-shadow: 1px 1px 1px  white;
+        line-height: 33px;
+    }
+
+}
